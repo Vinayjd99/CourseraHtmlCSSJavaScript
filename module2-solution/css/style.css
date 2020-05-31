@@ -49,6 +49,18 @@ p {
     overflow: hidden;
 }
 
+.chicken {
+    background-color: rgb(228, 140, 169);
+}
+
+.beef {
+    background-color: rgb(238, 85, 85);
+}
+
+.sushi {
+    background-color: rgb(243, 207, 164);
+}
+
 @media (min-width:992px) {
     .col-ls-4 {
         float: left;
