@@ -6,22 +6,41 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
 
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <nav id="header-nav" class="navbar navbar-light bg-light">
-
-
+        <nav id="header-nav" class="navbar bg-dark navbar-dark">
             <a class="navbar-brand" href="#">
-                <span class="navbar-text display-4">
+                <span class="navbar-text display-4 pl-5">
                         Food, LLC
                     </span>
             </a>
 
+            <button id="navigation-button" class="navbar-toggler mr-3 d-block d-sm-none" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse d-sm-none d-md-none" id="navbarToggleExternalContent">
+                <ul class="navbar-nav ">
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#chicken">Chicken</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#beef">Beef</a>
+                    </li>
+                    <li class="nav-item text-center">
+                        <a class="nav-link" href="#sushi">Sushi</a>
+                    </li>
+                </ul>
+            </div>
+
         </nav>
+
     </header>
     <h1 class="text-center font-weight-bold mt-4 mb-5">Our Menu</h1>
 
@@ -29,7 +48,7 @@
         <div class="row">
             <div class="col-md-4 col-sm-6 col-xs-1">
                 <section class="border border-dark ">
-                    <div class="chicken text-center font-weight-bolder pt-3 h5">Chicken</div>
+                    <div id="chicken" class="text-center font-weight-bolder pt-3 h5">Chicken</div>
                     <p class="p-3 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque, enim impedit quam tempora commodi ducimus beatae vitae consequuntur, repellat, aliquam blanditiis ipsum! Est atque, totam ipsam hic facere consectetur!
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni commodi accusamus, esse cupiditate corporis aut aliquam necessitatibus repudiandae, itaque eveniet maxime. Fuga itaque amet est tenetur in. Eaque, id dolor. Lorem
                         ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus qui accusantium commodi. Molestiae velit vel porro. Aut sunt porro nulla maxime inventore, facere qui dicta voluptates aliquam ut quibusdam enim.
@@ -38,7 +57,7 @@
             </div>
             <div class="col-md-4 col-sm-6 col-xs-1">
                 <section class="border border-dark ">
-                    <div class="beef text-center font-weight-bolder pt-3 h5">Beef</div>
+                    <div id="beef" class="text-center font-weight-bolder pt-3 h5">Beef</div>
                     <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque, enim impedit quam tempora commodi ducimus beatae vitae consequuntur, repellat, aliquam blanditiis ipsum! Est atque, totam ipsam hic facere consectetur!
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni commodi accusamus, esse cupiditate corporis aut aliquam necessitatibus repudiandae, itaque eveniet maxime. Fuga itaque amet est tenetur in. Eaque, id dolor. Lorem
                         ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus qui accusantium commodi. Molestiae velit vel porro. Aut sunt porro nulla maxime inventore, facere qui dicta voluptates aliquam ut quibusdam enim.
@@ -47,7 +66,7 @@
             </div>
             <div class="col-md-4 col-sm-12 col-xs-1">
                 <section class="border border-dark ">
-                    <div class="sushi text-center font-weight-bolder pt-3 h5">Sushi</div>
+                    <div id="sushi" class="text-center font-weight-bolder pt-3 h5">Sushi</div>
                     <p class="p-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum doloremque, enim impedit quam tempora commodi ducimus beatae vitae consequuntur, repellat, aliquam blanditiis ipsum! Est atque, totam ipsam hic facere consectetur!
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni commodi accusamus, esse cupiditate corporis aut aliquam necessitatibus repudiandae, itaque eveniet maxime. Fuga itaque amet est tenetur in. Eaque, id dolor. Lorem
                         ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus qui accusantium commodi. Molestiae velit vel porro. Aut sunt porro nulla maxime inventore, facere qui dicta voluptates aliquam ut quibusdam enim.
@@ -56,8 +75,7 @@
             </div>
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+
 </body>
 
 </html>

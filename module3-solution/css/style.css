@@ -1,9 +1,16 @@
 body {
     padding: 0px;
     margin: 0px;
-    background-color: aqua;
     width: 100%;
     box-sizing: border-box;
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.navbar {
+    padding: 0px;
 }
 
 .row {
@@ -11,9 +18,21 @@ body {
     width: 100%;
 }
 
+.nav-item {
+    border-top: 1px solid black;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+    font-size: 1.3em;
+    background-color: rgb(204, 197, 197);
+    font-weight: 600;
+}
+
 .container {
     padding-left: 0px;
     padding-right: 0px;
+    padding-bottom: 3em;
 }
 
 div.col-md-4 {
@@ -21,4 +40,8 @@ div.col-md-4 {
     padding-right: 10px;
     padding-top: 20px;
     width: 100%;
+}
+
+section {
+    background-color: aqua;
 }
